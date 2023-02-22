@@ -1,0 +1,118 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 15em;
+    margin: 1em;
+  }
+  
+  .dropdown-toggle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ddd;
+    border: 1px #bbb solid;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 1px 2px 1px #333;
+  }
+
+  .dropdown-toggle:hover {
+    cursor: pointer;
+    background-color: #bbb;
+    border: 1px #bbb solid;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 1px 2px 1px #333;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 3em;
+    display: none;
+    list-style: none;
+    background-color: #ddd;
+    padding: 0em 0em;
+    margin: 0;
+    width: 100%;
+    left: 50%;
+    border: 1px solid #ddd;
+    z-index: 1;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    box-shadow: 1px 2px 1px #333;
+    transform: translateX(-50%);
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+  }
+
+  .dropdown-menu li:hover {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #bbb;
+  }
+
+  .dropdown-menu li:active{
+    text-decoration: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .select-toggle {
+    width: auto;
+    color: #333;
+  }
+
+  .select-toggle:visited {
+    width: auto;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .select-toggle:focus {
+    width: auto;
+    color: #333;
+    text-decoration: none;
+  }
+  .select-toggle:active {
+    width: auto;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #777;
+  }
+
+  .caret-rotate {
+    transform: rotate(180deg);
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+  }
